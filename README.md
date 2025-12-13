@@ -11,3 +11,13 @@ I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey t
 I'll meet you over there, can't wait to get started!
 
 This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+
+## Cómo ejecutar la presentación y el juego Dual N-Back
+
+1. Instala Ruby (>= 3.0 recomendado) y Bundler (`gem install bundler`).
+2. Desde la raíz del repositorio, instala las dependencias del sitio: `bundle install`.
+3. Arranca el servidor local: `bundle exec jekyll serve --livereload --host 0.0.0.0 --port 4000`.
+4. Abre `http://localhost:4000` en tu navegador. Navega a la diapositiva titulada **Dual N-Back interactivo** para usar el juego.
+5. Usa **Iniciar** para lanzar la secuencia, **Modo demo** para ver el recorrido automático y las teclas **V** (visual), **A** (audio), **Espacio** (pausa) y **R** (reinicio) para interactuar.
+
+Si prefieres solo construir sin servidor, ejecuta `bundle exec jekyll build` y revisa el sitio generado en `_site/`.
